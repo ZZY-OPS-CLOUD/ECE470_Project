@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>CTRL_py</name>
+  <version>0.0.0</version>
+  <description>The CTRL_py package</description>
+  <license>GPL</license>
+  <author email="chenq3@illinois.edu">Chen Qian</author>
+  <author email="junkai2@illinois.edu">Junkai Zhang</author>
+  <author email="zheyuan6@illinois.edu">Zheyuan Zhang</author>
+  <maintainer email="chenq3@illinois.edu">Chen Qian</maintainer>
+  <maintainer email="junkai2@illinois.edu">Junkai Zhang</maintainer>
+  <maintainer email="zheyuan6@illinois.edu">Zheyuan Zhang</maintainer>
+  <url type="bugtracker">https://github.com/QuokeCola/ECE470_Project.git</url>
+  <url type="repository">https://github.com/QuokeCola/ECE470_Project.git</url>
+  <url type="website">https://github.com/QuokeCola/ECE470_Project.git</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>ur3_driver</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ur3_driver</exec_depend>
+  <export>
+  </export>
+</package>

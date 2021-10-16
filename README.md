@@ -16,3 +16,16 @@ After that, create a new folder by
 2. Download the files, extract it in src folder.
 3. `cd ..` to get in the root directory of catkin_ws. Use `catkin_make` to compile the whole project.
 4. To run the code, firstly, `source devel/setup.bash` and launch ros by `roslaunch ur3_driver ur3_gazebo.launch` for simulator, or `roslaunch ur3_driver ur3_driver.launch` for real UR3 robot. In another window, also `source devel/setup.bash` and run the code by `rosrun CTRL_py main_exec.py`
+
+# Our Work
+
+Our code are mostly lie in the `directory /src/CTRL_py/scripts/`, but we also slightly modified the ur3 urdf file in `src\drivers\universal_robot\ur_description\urdf\ur3.urdf.xacro`, to install the sensors and effectors we need.
+
+# TODO List
+
+- [x] Configure the environment
+- [x] Install sensor
+- [x] Drive motors on UR3
+- [ ] Kinematics
+- [ ] End Effector
+- [ ] Logic Algorithm

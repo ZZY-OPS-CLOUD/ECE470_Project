@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/rrbot_description/meshes/hokuyo.dae
+HostUrl=https://raw.githubusercontent.com/ros-simulation/gazebo_ros_demos/kinetic-devel/rrbot_description/meshes/hokuyo.dae

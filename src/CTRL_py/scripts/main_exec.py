@@ -10,11 +10,13 @@ import numpy as np
 import yaml
 import sys
 from math import pi
-from ur3interface import *
+from Ur3Interface import *
 
 Q13 = [120 * pi / 180.0, -56 * pi / 180.0, 124 * pi / 180.0, -158 * pi / 180.0, -90 * pi / 180.0, 0 * pi / 180.0]
 
+
 def main():
+
     rospy.init_node('CTRL_node')
     ur3IF = UR3Interface()
     rospy.loginfo('hello, world')

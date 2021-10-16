@@ -77,7 +77,6 @@ class UR3Interface:
                 spin_count = 0
             spin_count = spin_count + 1
 
-
     def __publish_variables(self):
         ur3_msg = command()
         ur3_msg.destination = self.target_angle

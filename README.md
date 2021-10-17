@@ -8,7 +8,7 @@ In linux, firstly [install ROS-Kinetic](http://wiki.ros.org/kinetic/Installation
 
 Then install the dependent packages that required:
 
-[ros_control](http://wiki.ros.org/ros_control?distro=kinetic#Install) [moveit](https://moveit.ros.org/install/)
+[ros_control](http://wiki.ros.org/ros_control?distro=kinetic#Install) and [moveit](https://moveit.ros.org/install/)
 
 After that, create a new folder by 
 

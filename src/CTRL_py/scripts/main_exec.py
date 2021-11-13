@@ -17,7 +17,7 @@ go_away = [270*PI/180.0, -90*PI/180.0, 90*PI/180.0, -90*PI/180.0, -90*PI/180.0, 
 
 # Store world coordinates of sanitizer and the target place
 xw_yw_S = []
-xw_yw_M = []
+xw_yw_M = [
 # 20Hz
 SPIN_RATE = 20
 

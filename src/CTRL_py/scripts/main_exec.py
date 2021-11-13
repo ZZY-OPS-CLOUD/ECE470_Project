@@ -230,6 +230,7 @@ def main():
 
     global go_away
     global xw_yw_S
+    global xw_yw_M
     # global variable1
     # global variable2
 
